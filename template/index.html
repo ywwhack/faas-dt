@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>{{ name }}</title>
+    <script>
+      window.CONFIG = {
+        ENV: 'local',
+        API_URL: 'http://localhost:8080'
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
