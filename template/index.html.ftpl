@@ -3,6 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>{{ name }}</title>
+    <script>
+      window.CONFIG = {
+        ENV: '{{_ .ENV }}',
+        API_URL: '{{_ .API_URL }}'
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
