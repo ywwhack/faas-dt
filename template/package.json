@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "vue": "^2.3.3"{{#router}},
-    "vue-router": "^2.6.0"{{/router}}
+    "vue-router": "^2.6.0"{{/router}}{{#if_eq apiConfig "axios"}},
+    "axios": "^0.16.2"{{/if_eq}}
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

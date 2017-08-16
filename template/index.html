@@ -4,10 +4,7 @@
     <meta charset="utf-8">
     <title>{{ name }}</title>
     <script>
-      window.CONFIG = {
-        ENV: 'local',
-        API_URL: 'http://localhost:8080'
-      }
+      {{ windowConfig false }}
     </script>
   </head>
   <body>
